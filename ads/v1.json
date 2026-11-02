@@ -1,0 +1,13 @@
+{
+ "schema_version": 2,
+ "enabled": false,
+ "expires_at": 0,
+ "placements": {},
+ "campaigns": [],
+ "frequency": {
+  "min_seconds_between": 180,
+  "max_per_session": 4,
+  "max_per_day": 8,
+  "max_per_campaign": 3
+ }
+}
