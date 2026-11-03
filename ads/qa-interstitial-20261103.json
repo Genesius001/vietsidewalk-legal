@@ -1,0 +1,36 @@
+{
+ "schema_version": 2,
+ "enabled": true,
+ "expires_at": 1793688763,
+ "placements": {
+  "ho_chi_minh.save_1": {
+   "enabled": true,
+   "close_delay_seconds": 3,
+   "campaign_ids": [
+    "qa-hcm-interstitial"
+   ]
+  }
+ },
+ "campaigns": [
+  {
+   "id": "qa-hcm-interstitial",
+   "kind": "house",
+   "audience": "free",
+   "platforms": [
+    "android"
+   ],
+   "title": "Кофейная пауза в Хошимине",
+   "body": "Тест Viet Sidewalk. Закройте карточку и продолжайте прогулку.",
+   "advertiser": "Griffonix",
+   "target_url": "https://genesius001.github.io/vietsidewalk-legal/",
+   "image_url": "https://genesius001.github.io/vietsidewalk-legal/ads/media/0079470f3079442479234876b1816b44cd92bcd78b29275fde334de02d2df65d.png",
+   "image_sha256": "0079470f3079442479234876b1816b44cd92bcd78b29275fde334de02d2df65d"
+  }
+ ],
+ "frequency": {
+  "min_seconds_between": 180,
+  "max_per_session": 4,
+  "max_per_day": 8,
+  "max_per_campaign": 3
+ }
+}
